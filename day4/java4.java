@@ -12,7 +12,7 @@ class java4{
                 }
                 start++;
             }
-            System.out.println(count);
+            System.out.print(count);
         }
     }
 }
