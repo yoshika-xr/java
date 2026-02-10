@@ -16,14 +16,26 @@ class java3 {
         }
         //found divisor of given number//
         {
-            int num = 60;
-            for (int i = 2; i <= num/2; i++) {
-                if (num % i == 0) {
+            // int num = 60;
+            // for (int i = 2; i <= num/2; i++) {
+            //     if (num % i == 0) {
 
-                    System.out.print(i+" ");
-                }
-            }
-
+            //         System.out.print(i+" ");
+            //     }
+            // }
+        }
+        //print count of divisor//
+        {
+            // int num = 60;
+            // int count = 0;
+            // int start = 2;
+            // while(start <= num / 2) {
+            //     if (num % start == 0) {
+            //         count++;
+            //     }
+            //     start++;
+            // }
+            // System.out.println(count);
         }
     }
 }

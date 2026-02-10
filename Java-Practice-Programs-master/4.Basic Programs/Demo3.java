@@ -1,6 +1,6 @@
 public class Demo3 {
     public static void main(String[] args) {
-        count_of_divisor(120);
+        count_of_divisor(60);
     }
 
     public static void count_of_divisor(int no) {
