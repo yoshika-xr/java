@@ -17,12 +17,11 @@ class java3 {
         //found divisor of given number//
         {
             int num = 60;
-            for (int i = 1; i <= 30; i++) {
+            for (int i = 2; i <= num/2; i++) {
                 if (num % i == 0) {
 
-                    System.out.println(i);
+                    System.out.print(i+" ");
                 }
-                System.out.println("j");
             }
 
         }
