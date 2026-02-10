@@ -24,18 +24,6 @@ class java3 {
             //     }
             // }
         }
-        //print count of divisor//
-        {
-            // int num = 60;
-            // int count = 0;
-            // int start = 2;
-            // while(start <= num / 2) {
-            //     if (num % start == 0) {
-            //         count++;
-            //     }
-            //     start++;
-            // }
-            // System.out.println(count);
-        }
+        
     }
 }
