@@ -5,15 +5,15 @@ public class Demo6 {
     }
 
     public static void LCM(int no1, int no2) {
-        /* int max = no1 > no2 ? no1 : no2;
+         int max = no1 > no2 ? no1 : no2;
         while (true) {
             if (max % no1 == 0 && max % no2 == 0) {
                 System.out.println("LCM IS " + max);
                 break;
             }
             max = max + 1;
-        } */
-        System.out.println((no1 * no2) / GCD(no1, no2));
+        } 
+        // System.out.println((no1 * no2) / GCD(no1, no2));
     }
 
     public static int GCD(int a, int b) {
