@@ -4,26 +4,32 @@ class java6 {
     public static void main(String[] args) {
         //revise the given number//
         {
-            int num = 1534236469;
-            int sum = 0;
-            while (num != 0) {
-                int n = num % 10;
-                if (sum > Integer.MAX_VALUE / 10
-                        || (sum == Integer.MAX_VALUE / 10 && num > 7)) {
-                    System.out.println(0);
-                }
+            // int num = 1534236469;
+            // int sum = 0;
+            // while (num != 0) {
+            //     int n = num % 10;
+            //     if (sum > Integer.MAX_VALUE / 10
+            //             || (sum == Integer.MAX_VALUE / 10 && num > 7)) {
+            //         System.out.println(0);
+            //     }
 
-                if (sum < Integer.MIN_VALUE / 10
-                        || (sum == Integer.MIN_VALUE / 10 && num < -8)) {
-                    System.out.println(0);
-                }
-                sum = sum * 10 + n;
-                num /= 10;
-            }
-            System.out.println(sum);
+            //     if (sum < Integer.MIN_VALUE / 10
+            //             || (sum == Integer.MIN_VALUE / 10 && num < -8)) {
+            //         System.out.println(0);
+            //     }
+            //     sum = sum * 10 + n;
+            //     num /= 10;
+            // }
+            // System.out.println(sum);
         }
         {
-          
+            // for (int i = 0; i < 3; i++) {
+            //     for (int j = 0; j < 3; j++) {
+            //         for (int k = 0; k < 3; k++) {
+            //             System.out.println("i = " + i + ", j = " + j);
+            //         }
+            //     }
+            // }
         }
         {
             // int num = 123;
@@ -34,23 +40,29 @@ class java6 {
             // System.out.println(count);
         }
         {
-            // Class containing the method to find string length
-            class Solution {
-                // Function to return length of a string
 
-                public int findLength(String s) {
-                    // Return length using built-in function
-                    return s.length();
+            // for(int i=1;i<=5;i++){
+            //     for(int j=1;j<=5;j++){
+            //         System.out.print("*");
+            //     }
+            //     System.out.println();
+            // }
+        }
+        {
+            // for (int i = 1; i <= 5; i++) {
+            //     for (int j = 1; j <= i; j++) {
+            //         System.out.print("*");
+            //     }
+            //     System.out.println();
+            // }
+        }
+        {
+             for (int i = 1; i <= 5; i++) {
+                for (int j = 1; j <= i; j++) {
+                    System.out.print(j);
                 }
+                System.out.println();
             }
-            // Driver class
-
-            // Create object of Solution class
-            Solution obj = new Solution();
-            // Input string
-            String s = "Hello World";
-            // Call function and print result
-            System.out.println(obj.findLength(s));
         }
     }
 
