@@ -1,4 +1,4 @@
-class java6{
+class java7{
     public static void main(String[]arg){
           {//1
 
