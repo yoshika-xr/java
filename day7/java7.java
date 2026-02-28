@@ -51,8 +51,8 @@ class java7 {
     }
 }
 
-// ## 🔢 Pattern List
-// ### 1. Solid Square
+
+//1. 
 // ```
 // *****
 // *****
@@ -60,7 +60,7 @@ class java7 {
 // *****
 // *****
 // ```
-// ### 2. Right-Angled Triangle (Increasing)
+//2.
 // ```
 // *
 // **
@@ -68,7 +68,7 @@ class java7 {
 // ****
 // *****
 // ```
-//3.numbers triangle
+//3.
 // 1
 // 12
 // 123
