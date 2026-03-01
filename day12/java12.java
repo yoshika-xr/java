@@ -10,25 +10,25 @@ class java12 {
                     System.out.print("*");
                 }
                 for (int sp = 1; sp <= n - i; sp++) {
-                    System.out.print("1");
+                    System.out.print(" ");
                 }
                 for (int sp = 1; sp <= n - i; sp++) {
-                    System.out.print("1");
+                    System.out.print(" ");
                 }
                 for (int k = 1; k <= i; k++) {
                     System.out.print("*");
                 }
                 System.out.println();
             }
-            for (int i = 1; i <= n-1; i++) {
+            for (int i = 1; i <= n - 1; i++) {
                 for (int j = 1; j <= n - i; j++) {
                     System.out.print("*");
                 }
                 for (int sp = 0; sp < i; sp++) {
-                    System.out.print("1");
+                    System.out.print(" ");
                 }
                 for (int sp = 0; sp < i; sp++) {
-                    System.out.print("1");
+                    System.out.print(" ");
                 }
                 for (int k = 1; k <= n - i; k++) {
                     System.out.print("*");
@@ -36,40 +36,48 @@ class java12 {
                 System.out.println();
             }
         }
+        System.out.println("-------------------");
         {
-            int spaces = 2*n-2;
-        
-        // Outer loop to print the row.
-        for(int i = 1; i <= 2*n-1; i++){
-            // Stars for first half
-            int stars = i;
-            
-            // Stars for the second half.
-            if(i > n) stars = 2*n - i;
-            
-            // For printing the stars
-            for(int j = 1; j <= stars; j++){
-                System.out.print("*");
+        //other way//
+            int spaces = 2 * n - 2;
+
+            // Outer loop to print the row.
+            for (int i = 1; i <= 2 * n - 1; i++) {
+                // Stars for first half
+                int stars = i;
+
+                // Stars for the second half.
+                if (i > n) {
+                    stars = 2 * n - i;
+                }
+
+                // For printing the stars
+                for (int j = 1; j <= stars; j++) {
+                    System.out.print("*");
+                }
+
+                // For printing the spaces
+                for (int j = 1; j <= spaces; j++) {
+                    System.out.print(" ");
+                }
+
+                // For printing the stars
+                for (int j = 1; j <= stars; j++) {
+                    System.out.print("*");
+                }
+
+                // Give a line break for new row.
+                System.out.println();
+
+                if (i < n) {
+                    spaces -= 2; 
+                }else {
+                    spaces += 2;
+                }
             }
-            
-            // For printing the spaces
-            for(int j = 1; j <= spaces; j++){
-                System.out.print("1");
-            }
-            
-            // For printing the stars
-            for(int j = 1; j <= stars; j++){
-                System.out.print("*");
-            }
-            
-            // Give a line break for new row.
-            System.out.println();
-            
-            if(i < n) spaces -= 2;
-            else spaces += 2;
-        }
         }
         {
+            //2 
             // for (int i = 1; i <= n; i++) {
             //     for (int sp1 = 0; sp1 <= n - i; sp1++) {
             //         System.out.print("*");
@@ -105,9 +113,10 @@ class java12 {
             // }
         }
         {
+            //3
             for (int i = 1; i <= n; i++) {
-                for (int j = 1; j <= n-1; j++) {
-                    if (i == 1 || i == 5 ||j==1 ||j==n-1) {
+                for (int j = 1; j <= n - 1; j++) {
+                    if (i == 1 || i == 5 || j == 1 || j == n - 1) {
                         System.out.print("*");
                     } else {
                         System.out.print(" ");
@@ -124,6 +133,16 @@ class java12 {
 }
 
 //1
+// *        *
+// **      **
+// ***    ***
+// ****  ****
+// **********
+// ****  ****
+// ***    ***
+// **      **
+// *        *
+//2
 // **********
 // ****  ****
 // ***    ***
@@ -134,3 +153,9 @@ class java12 {
 // ***    ***
 // ****  ****
 // **********
+//3
+// ****
+// *  *
+// *  *
+// *  *
+// ****
