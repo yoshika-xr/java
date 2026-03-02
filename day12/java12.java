@@ -2,43 +2,43 @@
 class java12 {
 
     public static void main(String[] args) {
-        int n = 5;
+        int n = 2;
         {
             //1
-            for (int i = 1; i <= n; i++) {
-                for (int j = 1; j <= i; j++) {
-                    System.out.print("*");
-                }
-                for (int sp = 1; sp <= n - i; sp++) {
-                    System.out.print(" ");
-                }
-                for (int sp = 1; sp <= n - i; sp++) {
-                    System.out.print(" ");
-                }
-                for (int k = 1; k <= i; k++) {
-                    System.out.print("*");
-                }
-                System.out.println();
-            }
-            for (int i = 1; i <= n - 1; i++) {
-                for (int j = 1; j <= n - i; j++) {
-                    System.out.print("*");
-                }
-                for (int sp = 0; sp < i; sp++) {
-                    System.out.print(" ");
-                }
-                for (int sp = 0; sp < i; sp++) {
-                    System.out.print(" ");
-                }
-                for (int k = 1; k <= n - i; k++) {
-                    System.out.print("*");
-                }
-                System.out.println();
-            }
+            // for (int i = 1; i <= n; i++) {
+            //     for (int j = 1; j <= i; j++) {
+            //         System.out.print("*");
+            //     }
+            //     for (int sp = 1; sp <= n - i; sp++) {
+            //         System.out.print(" ");
+            //     }
+            //     for (int sp = 1; sp <= n - i; sp++) {
+            //         System.out.print(" ");
+            //     }
+            //     for (int k = 1; k <= i; k++) {
+            //         System.out.print("*");
+            //     }
+            //     System.out.println();
+            // }
+            // for (int i = 1; i <= n - 1; i++) {
+            //     for (int j = 1; j <= n - i; j++) {
+            //         System.out.print("*");
+            //     }
+            //     for (int sp = 0; sp < i; sp++) {
+            //         System.out.print(" ");
+            //     }
+            //     for (int sp = 0; sp < i; sp++) {
+            //         System.out.print(" ");
+            //     }
+            //     for (int k = 1; k <= n - i; k++) {
+            //         System.out.print("*");
+            //     }
+            //     System.out.println();
+            // }
         }
         System.out.println("-------------------");
         {
-        //other way//
+            //other way//
             int spaces = 2 * n - 2;
 
             // Outer loop to print the row.
@@ -70,8 +70,8 @@ class java12 {
                 System.out.println();
 
                 if (i < n) {
-                    spaces -= 2; 
-                }else {
+                    spaces -= 2;
+                } else {
                     spaces += 2;
                 }
             }
@@ -114,21 +114,34 @@ class java12 {
         }
         {
             //3
+            // for (int i = 1; i <= n; i++) {
+            //     for (int j = 1; j <= n - 1; j++) {
+            //         if (i == 1 || i == 5 || j == 1 || j == n - 1) {
+            //             System.out.print("*");
+            //         } else {
+            //             System.out.print(" ");
+            //         }
+            //     }
+            //     System.out.println();
+            // }
+        }
+        {
             for (int i = 1; i <= n; i++) {
-                for (int j = 1; j <= n - 1; j++) {
-                    if (i == 1 || i == 5 || j == 1 || j == n - 1) {
-                        System.out.print("*");
-                    } else {
+                for (int j = 1; j <= n; j++) {
+                    if (i == 1 || i == n || j == 1 || j == n) {
+                        System.out.print(n);
+                    } else if(i==2||i==n-1||j==2||j==n-1){
+                        System.out.print(n-1);
+                    }
+                    else {
                         System.out.print(" ");
                     }
                 }
                 System.out.println();
+
             }
-        }
-        {
 
         }
-
     }
 }
 
