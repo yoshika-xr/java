@@ -1,8 +1,7 @@
 
 class java3 {
 
-    public static void main(String[] args) {
-        // Scanner sc = new Scanner(System.in);
+    public static void main(String[] args) 
         //found count of the digit//
         {
             int a = 0;
@@ -16,9 +15,6 @@ class java3 {
                 }
                 System.out.println(count);
             }
-            // for (int i = a; i >= 0; i = i / 10) {
-            //     count++;
-            // }
         }
         //found divisor of given number//
         {
