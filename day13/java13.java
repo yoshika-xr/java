@@ -2,7 +2,7 @@
 import java.util.Scanner;
 
 class java13 {
-
+ //found the palindrome number//
     static int reverseNumber(int num) {
         int sum = 0;
         while (num != 0) {
@@ -23,4 +23,5 @@ class java13 {
             System.out.println("not palindrome");
         }
     }
+
 }
