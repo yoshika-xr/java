@@ -1,17 +1,7 @@
 
-class java8 {
+class medium {
 
     public static void main(String[] args) {
-        {
-            //1
-        int n=4;
-            for (int i = 0; i < n; i++) {
-                for (int j = 0; j < n-i; j++) {
-                    System.out.print(j+1);
-                }
-                System.out.println();
-            }
-        }
         {
             //2
             // int n = 4;
@@ -27,6 +17,11 @@ class java8 {
             //     }
             //     System.out.println();
             // }
+
+            //    *
+            //   ***
+            //  *****
+            // *******
         }
         {
             //3
@@ -43,28 +38,10 @@ class java8 {
             //     }
             //     System.out.println();
 
-            // }
         }
-
+        // *******
+        //  *****
+        //   ***
+        //    *
     }
 }
-
-//1
-// 1234
-// 123
-// 12
-// 1
-
-//2
-
-//    *
-//   ***
-//  *****
-// *******
-
-
-//3
-// *******
-//  *****
-//   ***
-//    *
