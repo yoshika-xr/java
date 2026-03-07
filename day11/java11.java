@@ -4,16 +4,6 @@ class java11 {
     public static void main(String[] args) {
         int n = 4;
         {
-            //1
-            // for (int i = 0; i < n; i++) {
-            //     char ch = (char) ('A' + i);
-            //     for (int j = 0 ;j <= i; j++) {
-            //         System.out.print(ch);
-            //     }
-            //     System.out.println();
-            // }
-        }
-        {
                 // for(int i=1;i<=n;i++){
                 //     for(char ch='A';ch<='A'+(n-i);ch++){
                 //         System.out.print(ch);
@@ -22,7 +12,7 @@ class java11 {
                 // }
         }
         {
-            //3
+            
             // for (int i = 1; i <= n; i++) {
             //     for (int sp = 0; sp <= n - i - 1; sp++) {
             //         System.out.print(" ");
@@ -38,7 +28,7 @@ class java11 {
             // }
         }
         {
-            //4
+            
             for (int i = 1; i <= n; i++) {
                 char ex = (char) ('D'-1 );
                 for (char ch = ex; ch >= 'D'; ch--) {
