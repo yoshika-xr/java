@@ -3,14 +3,7 @@ class java11 {
 
     public static void main(String[] args) {
         int n = 4;
-        {
-                // for(int i=1;i<=n;i++){
-                //     for(char ch='A';ch<='A'+(n-i);ch++){
-                //         System.out.print(ch);
-                //     }
-                //     System.out.println();
-                // }
-        }
+   
         {
             
             // for (int i = 1; i <= n; i++) {
@@ -27,33 +20,13 @@ class java11 {
             //     System.out.println();
             // }
         }
-        {
-            
-            for (int i = 1; i <= n; i++) {
-                char ex = (char) ('D'-1 );
-                for (char ch = ex; ch >= 'D'; ch--) {
-                    System.out.print(ch);
-                }
-
-                System.out.println();
-            }
-        }
     }
 }
 
-//1:
-// A
-// BB
-// CCC
-// DDDD
-// EEEEE
 
 
-//2
-// ABCD
-// ABC
-// AB
-// A
+
+
 
 
 

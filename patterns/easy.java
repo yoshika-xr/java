@@ -2,6 +2,7 @@
 class easy {
 
     public static void main(String[] args) {
+            int n = 4;
         {
 
             // for(int i=1;i<=5;i++){
@@ -10,6 +11,7 @@ class easy {
             //     }
             //     System.out.println();
             // }
+
             // *****
             // *****
             // *****
@@ -24,6 +26,7 @@ class easy {
             //     }
             //     System.out.println();
             // }
+
             // 12345
             // 1234        
             // 123
@@ -52,6 +55,7 @@ class easy {
             //     }
             //     System.out.println();
             // }
+            
             // *
             // **
             // ***
@@ -60,7 +64,6 @@ class easy {
         }
         {
 
-            int n = 4;
             for (int i = 0; i < n; i++) {
                 for (int j = 0; j < n - i; j++) {
                     System.out.print(j + 1);
@@ -83,7 +86,6 @@ class easy {
             // }
         }
         {
-            int n = 4;
             for (int i = 1; i <= n; i++) {
                 for (int j = 1; j <= n; j++) {
                     if (i == 1 || i == n || j == 1 || j == n) {
@@ -98,12 +100,46 @@ class easy {
 
             }
 
+        // ****
+        // *  *
+        // *  *
+        // *  *
+        // ****
         }
-        // ****
-        // *  *
-        // *  *
-        // *  *
-        // ****
+        {
+                 
+                // for(int i=1;i<=n;i++){
+                //     for(char ch='A';ch<='A'+(n-i);ch++){
+                //         System.out.print(ch);
+                //     }
+                //     System.out.println();
+                // }
+
+            // A
+            // BB
+            // CCC
+            // DDDD 
+            // EEEEE 
+        }
+        {
+               
+            
+            // for (int i = 1; i <= n; i++) {
+            //     char ex = (char) ('D'-i+1 );
+            //     for (char ch = 'A'; ch <= ex; ch++) {
+            //         System.out.print(ch);
+            //     }
+
+            //     System.out.println();
+            // }
+
+            // ABCD
+            // ABC
+            // AB
+            // A
+        
+        }
+
 
 
     }
