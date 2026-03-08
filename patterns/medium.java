@@ -2,7 +2,7 @@
 class medium {
 
     public static void main(String[] args) {
-            int n = 4;
+        int n = 4;
         {
             // for (int i = 1; i <= n; i++) {
             //     for (int s = 1; s <= n - i; s++) {
@@ -35,10 +35,10 @@ class medium {
             //     }
             //     System.out.println();
 
-        // *******
-        //  *****
-        //   ***
-        //    *
+            // *******
+            //  *****
+            //   ***
+            //    *
         }
         {
             //1
@@ -73,7 +73,6 @@ class medium {
             //     System.out.println();
             // }
 
-
             // *        *
             // **      **
             // ***    ***
@@ -84,7 +83,7 @@ class medium {
             // **      **
             // *        *
         }
-         {
+        {
             //2 
             // for (int i = 1; i <= n; i++) {
             //     for (int sp1 = 0; sp1 <= n - i; sp1++) {
@@ -119,17 +118,36 @@ class medium {
             //         System.out.println();
             //     }
             // }
+            // **********
+            // ****  ****
+            // ***    ***
+            // **      **
+            // *        *
+            // *        *
+            // **      **
+            // ***    ***
+            // ****  ****
+            // **********
+        }
+        {
+            // for (int i = 1; i <= n; i++) {
+            //     for (int sp = 0; sp <= n - i - 1; sp++) {
+            //         System.out.print(" ");
+            //     }
+            //     for (char ch1 = 'A'; ch1 < 'A' + i - 1; ch1++) {
+            //         System.out.print(ch1);
+            //     }
+            //     char ex = (char) ('A' + i - 1);
+            //     for (char ch2 = ex; ch2 >= 'A'; ch2--) {
+            //         System.out.print(ch2);
+            //     }
+            //     System.out.println();
+            // }
 
-            // **********
-            // ****  ****
-            // ***    ***
-            // **      **
-            // *        *
-            // *        *
-            // **      **
-            // ***    ***
-            // ****  ****
-            // **********
+            //    A
+            //   ABA
+            //  ABCBA
+            // ABCDCBA
         }
     }
 }
