@@ -3,25 +3,7 @@ class java10 {
 
     public static void main(String[] args) {
         int n = 5;
-        {
-            //1
-            // for (int i = 1; i <= n; i++) {
-            //     for (int j = 1; j <= i; j++) {
-            //         System.out.print(j);
-            //     }
-
-            //     for (int j2 = 1; j2 <= n - i + 1; j2++) {
-            //         System.out.print("*");
-            //     }
-            //     for (int k2 = 1; k2 <= n - i; k2++) {
-            //         System.out.print("*");
-            //     }
-            //     for (int k = i; k >= 1; k--) {
-            //         System.out.print(k);
-            //     }
-            //     System.out.println();
-            // }
-        }
+        
         {
             //2
             // int n1=5;

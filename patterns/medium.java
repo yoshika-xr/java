@@ -246,25 +246,63 @@ class medium {
             // *
         }
         {
-            int start = 0;
-            for (int i = 0; i <= n; i++) {
-                if (i % 2 == 0) {
-                    start = 1;
-                } else {
-                    start = 0;
-                }
-                for (int j = 1; j <= i; j++) {
-                    System.out.print(start + " ");
-                    start = 1 - start;
-                }
-                System.out.println();
-            }
+            // int start = 0;
+            // for (int i = 0; i <= n; i++) {
+            //     if (i % 2 == 0) {
+            //         start = 1;
+            //     } else {
+            //         start = 0;
+            //     }
+            //     for (int j = 1; j <= i; j++) {
+            //         System.out.print(start + " ");
+            //         start = 1 - start;
+            //     }
+            //     System.out.println();
+            // }
 
             // 0 
             // 1 0 
             // 0 1 0 
             // 1 0 1 0 
             // 0 1 0 1 0
+        }
+        {
+            // for (int i = 1; i <= n; i++) {
+            //     for (int j = 1; j <= i; j++) {
+            //         System.out.print(j);
+            //     }
+
+            //     for (int j2 = 1; j2 <= n - i + 1; j2++) {
+            //         System.out.print(" ");
+            //     }
+            //     for (int k2 = 1; k2 <= n - i; k2++) {
+            //         System.out.print(" ");
+            //     }
+            //     for (int k = i; k >= 1; k--) {
+            //         System.out.print(k);
+            //     }
+            //     System.out.println();
+            // }
+            // 1       1
+            // 12     21
+            // 123   321
+            // 1234 4321
+        }
+        {
+            int n1=5;
+            int count=1;
+            for(int i=1;i<=n;i++){
+                for(int j=1;j<=i;j++){
+                     System.out.print(count+" ");
+                     count++;
+                }
+                System.out.println();
+            }
+
+            // 1 
+            // 2 3
+            // 4 5 6
+            // 7 8 9 10
         }
     }
 }
