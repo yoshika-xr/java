@@ -304,6 +304,16 @@ class medium {
             // 4 5 6
             // 7 8 9 10
         }
-       
+
+        {
+            for (int i = 1; i <= n; i++) {
+                int ru = 'A';
+                for (char ch = 'A'; ch < ru - i; ch++) {
+                    System.out.print(ch + " ");
+                }
+                System.out.println();
+            }
+        }
+
     }
 }
