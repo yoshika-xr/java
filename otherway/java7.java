@@ -10,7 +10,7 @@ class java7 {
 
                 //This loop will print the spaces
                 for (int j = 0; j < i; j++) {
-                    System.out.print("1");
+                    System.out.print(" ");
                 }
 
                 // This loop will print asterisk.
@@ -22,6 +22,10 @@ class java7 {
              move to the next row and give a line break */
                 System.out.println();
             }
+            // *******
+            //  *****
+            //   ***
+            //    *
         }
 
         {
@@ -62,6 +66,13 @@ class java7 {
                     spaces += 2;
                 }
             }
+            // *      *
+            // **    **
+            // ***  ***
+            // ********
+            // ***  ***
+            // **    **
+            // *      *
         }
 
     }
