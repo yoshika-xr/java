@@ -8,8 +8,6 @@ class no8 {
         int[] numbers = {10, 20, 30, 40};
         System.out.println(Arrays.toString(numbers));
 
-        // for (int i = 0; i < numbers.length; i++) {
-        //     System.out.print(Arrays.toString(numbers[i]));
-        // }
+        //[10, 20, 30, 40]
     }
 }
