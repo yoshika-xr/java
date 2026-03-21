@@ -13,4 +13,5 @@ class no11 {
 
         System.out.println("GCD is: " + gcd);
     }
+    //GCD is: 3
 }
