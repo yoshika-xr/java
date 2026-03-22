@@ -2,7 +2,8 @@
 class no11 {
 
     public static void main(String[] args) {
-        int a = 9;
+        //found gcd of two numbers
+        int a = 4;
         int b = 6;
         int gcd = 1;
         for (int i = 1; i <= a && i <= b; i++) {

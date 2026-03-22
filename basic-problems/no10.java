@@ -1,6 +1,6 @@
 
 class no10 {
-
+    //find the divisor of a number
     public int[] divisor(int n) {
         int[] ans = new int[n];
         int count = 0;

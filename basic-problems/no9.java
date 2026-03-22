@@ -1,6 +1,6 @@
 
 class no9 {
-
+//found prime number
     public static void main(String[] args) {
         int num = 7;
         int div = 2;
@@ -18,4 +18,5 @@ class no9 {
             System.out.println("Not prime");
         }
     }
+    //Prime
 }
