@@ -1,9 +1,6 @@
 public class no8{
     public static void main(String[] args) {
-        isArmstrong(153);
-    }
-    public static void isArmstrong(int n)
-    {
+        int n=153;
         int temp=n;
         int sum=0;
         int count=find_count(n);
