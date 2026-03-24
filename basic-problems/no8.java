@@ -1,28 +1,27 @@
-
-
-
-
-
-class no8 {
-
-    public static void main(String args[]) {
-        //Amstrogam number
-        int num=153;
-        int count=count(num);
-        int temp=num;
-        int ans=0;
-        while(num!=0){
-            int last=num%10;
-            ans=ans+(int)Math.pow(last,count);
-            num/=10;
-        }
-        System.out.println(ans);
+public class no8{
+    public static void main(String[] args) {
+        isArmstrong(153);
     }
-    public static  int count(int num){
+    public static void isArmstrong(int n)
+    {
+        int temp=n;
+        int sum=0;
+        int count=find_count(n);
+        while(temp!=0)
+        {
+          int rem=temp%10;
+          sum=sum+(int)Math.pow(rem,count);
+          temp=temp/10;
+        }
+        System.out.println((sum==n)?"Armstrong":"Not an Armstrong");
+    }
+    public static int find_count(int n)
+    {
         int count=0;
-        for(int i=num;i>=0;i=i/10){
+        for(int i=n;i>0;i=i/10)
+        {
             count++;
         }
-        return(count);
+        return count;
     }
 }
