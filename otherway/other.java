@@ -1,5 +1,5 @@
 
-class java7 {
+class other {
 
     public static void main(String[] arg) {
         int n = 4;
