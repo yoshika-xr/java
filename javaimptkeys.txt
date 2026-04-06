@@ -61,10 +61,10 @@ int[] arr = {10, 20, 30};
             }
         }  
 📌 8. Sorting Array
-    import java.util.Arrays;
-    Arrays.sort(arr);
+        import java.util.Arrays;
+        Arrays.sort(arr);
 📌 9. Copy Array
-    int[] newArr = Arrays.copyOf(arr, arr.length);
+        int[] newArr = Arrays.copyOf(arr, arr.length);
 📌 10. 2D Array (Matrix)
     Declaration:
         int[][] arr = new int[3][3];
@@ -76,13 +76,13 @@ int[] arr = {10, 20, 30};
         }
 📌 11. Important Points (VERY IMPORTANT)
 
-✔ Index starts from 0
-✔ Fixed size (cannot change)
-✔ Stores same data type only
-✔ ArrayIndexOutOfBoundsException if index wrong
+    ✔ Index starts from 0
+    ✔ Fixed size (cannot change)
+    ✔ Stores same data type only
+    ✔ ArrayIndexOutOfBoundsException if index wrong
 
 📌 12. Frequently Used Methods (IMPORTANT)
-Arrays.sort(arr);        // sort
-Arrays.toString(arr);    // print array
-Arrays.equals(a, b);     // compare
-Arrays.fill(arr, 0);     // fill with value
+    Arrays.sort(arr);        // sort
+    Arrays.toString(arr);    // print array
+    Arrays.equals(a, b);     // compare
+    Arrays.fill(arr, 0);     // fill with value
