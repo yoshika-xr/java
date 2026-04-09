@@ -10,7 +10,7 @@ class Data {
     }
 }
 
-public class javacollec {
+public class no1 {
 
     public static void main(String[] args) {
         Data obj1 = new Data(9,"moha");
