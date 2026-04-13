@@ -2,7 +2,7 @@
 class medium {
 
     public static void main(String[] args) {
-        int n = 4;
+        int n = 5;
         {
             // for (int i = 1; i <= n; i++) {
             //     for (int s = 1; s <= n - i; s++) {
@@ -304,12 +304,16 @@ class medium {
             // 4 5 6
             // 7 8 9 10
         }
-
         {
-            for (int i = 1; i <= n; i++) {
-                int ru = 'A';
-                for (char ch = 'A'; ch < ru - i; ch++) {
-                    System.out.print(ch + " ");
+            // int n=5;
+            
+            for (int i=1;i<=((n+n)-1);i++){
+                for(int j=1;j<=((n+n)-1);j++){
+                    if(i==1 ||i==n||j==1||j==n){
+                        System.out.print(n-1+"");
+                    } else {
+                        System.out.print(" ");
+                    }
                 }
                 System.out.println();
             }
