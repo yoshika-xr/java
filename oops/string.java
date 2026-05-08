@@ -5,6 +5,10 @@ public class string{
         //string is immutable
         String name1="maha";
         System.out.println("Name:"+name);
-        System.out.println(name == name1); //true because both name and name1 are pointing to the same string literal in the string pool
+        System.out.println(name == name1);//true because both name and name1 are pointing to the same string literal in the string pool
+        System.out.println(name.charAt(2));// h
+        System.out.println(name.length());//4
+        System.out.println(name.substring(1, 2));//a
+        System.out.println(name.contains("Ha"));//false
     }
 }
