@@ -5,6 +5,17 @@ class mobile {
     int cost;
     static String brand;
 
+    public mobile() {
+        name = "";
+        cost = 10;
+        System.out.println("it is constructor");
+    }
+
+    static {
+        brand = "phone";
+        System.out.println("it is static block");
+    }
+
     public void show() {
         System.out.println(name + ":" + cost + ":" + brand);
     }
