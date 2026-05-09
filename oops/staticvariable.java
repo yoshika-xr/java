@@ -3,10 +3,10 @@ class mobile {
 
     String name;
     int cost;
-    String brand;
+    static String brand;
 
     public void show() {
-        System.out.println(name + " " + cost + " " + brand);
+        System.out.println(name + ":" + cost + ":" + brand);
     }
 }
 
@@ -17,20 +17,25 @@ public class staticvariable {
         mobile obj1 = new mobile();
         obj1.name = "samsung";
         obj1.cost = 20000;
-        obj1.brand = "galaxy";
+        mobile.brand = "galaxy";
 
         mobile obj2 = new mobile();
-        obj2.name = "viva";
+        obj2.name = "vivo10pro";
         obj2.cost = 25000;
-        obj2.brand = "galaxy";
+        mobile.brand = "vivo";
 
         mobile obj3 = new mobile();
-        obj3.name = "oppo";
+        obj3.name = "oppo17plus";
         obj3.cost = 18000;
-        obj3.brand = "galaxy";
-        obj.show();
+        mobile.brand = "phone";
+
         obj1.show();
         obj2.show();
         obj3.show();
     }
 }
+
+// samsung:20000:phone
+// vivo10pro:25000:phone
+// oppo17plus:18000:phone 
+//it is because of static variable, it will take the last value assigned to it.
