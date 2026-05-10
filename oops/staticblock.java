@@ -27,12 +27,10 @@ public class staticblock {
     public static void main(String[] arg) throws ClassNotFoundException {
 
             Class.forName("mobliestore");
-
-            // mobliestore obj = new mobliestore();
-            mobliestore obj1 = new mobliestore();
-            obj1.name = "samsung";
-            obj1.cost = 20000;
+            mobliestore obj = new mobliestore();
+            obj.name = "samsung";
+            obj.cost = 20000;
             mobliestore.brand = "galaxy";
-            obj1.show();
+            obj.show();
         }
     }
