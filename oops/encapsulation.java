@@ -1,7 +1,7 @@
 
 class student {
 
-    private int regno;//enapsulation
+    private int regno;//encapsulation
     String name;
 
     public  void show(int a, String b){
