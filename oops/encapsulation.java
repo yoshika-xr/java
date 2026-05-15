@@ -16,8 +16,6 @@ public class encapsulation {
 
     public static void main(String[] args) {
         student obj = new student();
-        // obj.regno = 01;
-        // obj.name="john";
         obj.show(01,"john");
 
     }

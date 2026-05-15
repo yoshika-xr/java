@@ -21,8 +21,6 @@ public class staticmethod {
         obj.name = "yash";
         obj.cost = 1000;
         obj.brand = "phone";
-
-        // obj.demo();
         obj.show(obj);
 
     }
