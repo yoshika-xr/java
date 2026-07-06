@@ -4,7 +4,7 @@ public class recursion {
     int count = 0;
 
     public void name() {
-        if (count == 4) {
+        if (count == 1) {
             return;
         }
         System.out.println("maya");
