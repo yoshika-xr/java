@@ -36,8 +36,8 @@ public class Demo3 {
         return false;
     }
     public static void main(String args[]) {
-        //int arr[] = { 1, 2, 3, 4, 5 }, n = 5;
-        int arr[] = { 3,4,5,2,1,1}, n = 6;
+        int arr[] = { 1, 2, 3, 4, 5 }, n = 5;
+        // int arr[] = { 3,4,5,2,1,1}, n = 6;
         System.out.println(check(arr, n));
     }
 }
